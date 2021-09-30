@@ -23,9 +23,9 @@ button {
   position: relative;
   cursor: pointer;
 
-  --background-color: orange;
+  --background-color: #333;
   --border-size: 2px;
-  --accent-color: aqua;
+  --accent-color: darkcyan;
 }
 
 .btn.btn-border-pop::before {
