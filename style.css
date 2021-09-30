@@ -4,6 +4,7 @@
 
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -15,8 +16,11 @@ button {
 }
 
 .btn {
+  width: 30vmin;
+  height: 10vmin;
+  font-size: 3vmin;
   background-color: var(--background-color);
-  color: #222;
+  color: white;
   padding: .5em 1em;
   border: none;
   outline: none;
@@ -24,7 +28,7 @@ button {
   cursor: pointer;
 
   --background-color: #333;
-  --border-size: 2px;
+  --border-size: 1vmin;
   --accent-color: darkcyan;
 }
 
